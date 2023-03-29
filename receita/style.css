@@ -1,0 +1,88 @@
+body {
+    background-color: #dcf3dc;
+}
+/* titulo */
+h1 {
+    background-color: #4ECDC4;
+    color: #FF6B6B;
+    font-size: 53px;
+    font-family: 'Delicious Handrawn', cursive;
+    border: dotted #1A535C 5px;
+    border-radius: 5px;
+}
+/* modo de preparo */
+h2 { 
+    background-color:#4ECDC4;
+    color: #FF6B6B;
+    font-size: 43px;
+    font-family: 'Delicious Handrawn', cursive;
+    border: dotted #1A535C 5px;
+    border-radius: 5px;
+}
+/* ingredientes */
+h3{
+    background-color: #FFE66D;
+    color:#1A535C;
+    font-size: 33px;
+    font-family: 'Delicious Handrawn', cursive;
+    border: dotted #4ECDC4 5px;
+    border-radius: 5px;
+}
+/* receita */
+ol {
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* final */
+p {
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* imagem */
+img {
+    align-items: end;
+    border: solid #FFE66D 15px;
+    border-radius: 8px;
+}
+
+.container {
+    width: 87%;
+}
+
+
+@media(max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        width: 93%;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .coluna {
+        width: 100%;
+        display: block;
+    }
+}
